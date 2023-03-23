@@ -1,6 +1,5 @@
 from modules.biudzetas import Biudzetas
 
-
 biudzetas = Biudzetas()
 # biudzetas.prideti_pajamu_irasa(1000, "Pukuotukas", "uz grazias akis")
 
@@ -13,7 +12,7 @@ while True:
             alternatyva1 = int(input("Ka norite ivesti:\t\n1 - ivesti pajamas\n2 - ivesti islaidas\n3 - iseiti\n"))
             if alternatyva1 == 1:
                 suma = int(input("Ivedame pajamas:\t"))
-                siuntejas = input("Iveskite siunteja:\t")
+                siuntejas = input("Iveskite pirkeja/siunteja:\t")
                 pap_informacija = input("Iveskite papildoma informacija:\t")
                 biudzetas.prideti_pajamu_irasa(suma, siuntejas, pap_informacija)
             if alternatyva1 == 2:
